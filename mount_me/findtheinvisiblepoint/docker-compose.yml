@@ -1,0 +1,6 @@
+version: "3"
+services:
+        find_the_invisible_point_webserver:
+                build: .
+                ports:
+                        - "5001:80"

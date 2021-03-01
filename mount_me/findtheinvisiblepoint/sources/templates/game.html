@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html style="width: 100%; height: 100%;">
+<head>
+    <meta charset="utf-8">
+    <title>The game has beginned!</title>
+</head>
+<body style="width: 100%; height: 100%; margin: 0px;">
+    <script type="text/javascript">
+        var score = {{score}};
+    </script>
+    <script type="text/javascript" src="{{url_for('static', filename='game_main.js')}}"></script>
+    Your currnet score is <div style="display: inline;" id="score_display"></div>
+    <!--
+    Информация для разработчиков: и в trial, и в экспертном режиме гарантируется, что создаваемая точка находится в пределах веб-страницы игрока, то есть если размер окна не меняется, игрок всегда может найти пиксель. Первая точка в обоих режимах всегда имеет координаты (0; 0)
+    -->
+</body>
+</html>

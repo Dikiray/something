@@ -1,0 +1,4 @@
+Flask==1.1.2
+PyJWT==1.4.2
+pycrypto==2.6.1
+gunicorn==20.0.4
